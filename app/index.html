@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test-angular-directive-execution-order</title>
+</head>
+<body>
+    <div ng-controller="ExecutionOrderController">
+        <span
+            ng-hide="isDisplayed"
+            ng-show="isDisplayed"
+        >
+            Displayed!
+        </span>
+    </div>
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
