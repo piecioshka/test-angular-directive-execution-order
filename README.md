@@ -1,4 +1,4 @@
-# test-angular-directive-execution-order
+# test-angularjs-directive-execution-order
 
 Results from DOMListener:
 
